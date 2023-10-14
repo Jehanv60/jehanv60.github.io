@@ -10,7 +10,8 @@ section {
 }
 
 .card-img-top {
-  height: 15vw;
+  height: 200px;
+  width: auto;
 }
 footer {
   margin-top: -10px;
