@@ -1,18 +1,44 @@
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  margin-bottom: -10px;
 }
 #projects {
   background-color: #e2edff;
+  margin-bottom: -10px;
+}
+.jumbotron section {
+  height: auto;
+}
+#about {
+  background-color: #ffffff;
+  margin-bottom: -10px;
+}
+#contact {
+  background-color: #ffffff;
+  margin-bottom: -10px;
+}
+.footerku {
+  background-color: #0d6efd;
+}
+#gallery {
+  margin-top: 50px;
+  margin-bottom: -10px;
 }
 section {
   scroll-margin-top: 60px;
+  overflow-x: clip;
+  overflow-y: clip;
+  overflow-clip-margin: 0;
 }
-
 .card-img-top {
   height: 200px;
   width: auto;
 }
-footer {
-  margin-top: -10px;
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 5px;
 }
