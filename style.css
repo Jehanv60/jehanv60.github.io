@@ -25,6 +25,10 @@
   margin-top: 50px;
   margin-bottom: -10px;
 }
+#keyboards {
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
 section {
   scroll-margin-top: 60px;
   overflow-x: clip;
