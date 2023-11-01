@@ -220,6 +220,41 @@
         </div>
       </section>
       <!-- End Gallery -->
+      <!-- Keyboard 3D -->
+      <section id="keyboards">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-mb-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keyboard 1</h4>
+                <img src="img/keyboard/k1.png" alt="keyboard1" class="img-fluid keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-mb-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keyboard 2</h4>
+                <img src="img/keyboard/k2.jpg" alt="keyboard2" class="img-fluid keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-mb-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keyboard 3</h4>
+                <img src="img/keyboard/k3.jpg" alt="keyboard3" class="img-fluid keyboard-img" />
+                <a href="#" class="btn btn-light keyboard-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Keyboard -->
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -333,6 +368,14 @@
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+        max: 25,
+        speed: 1000,
+        glare: true,
       });
     </script>
   </body>
